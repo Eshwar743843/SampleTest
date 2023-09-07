@@ -11,7 +11,7 @@ node {
  
   stage('E2ETest') {
  
-      echo "Running E2ETest Test"}
+      echo "Running E2ETest Test"
   }
 
 }
