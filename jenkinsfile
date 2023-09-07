@@ -1,0 +1,19 @@
+node {
+    
+  stage('IntegrationTest') {
+    
+          echo "Running Integration Test"
+    }
+    
+  stage('ApiTest') {
+       echo "Running Api Test"
+    }
+ 
+  stage('E2ETest') {
+ 
+      echo "Running E2ETest Test"}
+  }
+
+}
+
+
